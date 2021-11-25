@@ -1,0 +1,96 @@
+/**
+ * The Member entity.
+ */
+entity Member {
+    picture String required maxlength(128),
+    realname String required maxlength(32),
+    username String required maxlength(32),
+    password String required maxlength(32),
+    address String required maxlength(128),
+    matrix String required maxlength(128)
+}
+
+/**
+ * The Language entity.
+ */
+entity Language {
+    name String required maxlength(32),
+    picture String required maxlength(128)
+}
+
+/**
+ * The Subject entity.
+ */
+entity Subject {
+    name String required maxlength(32),
+    picture String required maxlength(128)
+}
+
+/**
+ * The Type entity.
+ */
+entity Type {
+    name String required maxlength(32),
+    picture String required maxlength(128)
+}
+
+/**
+ * The Event entity.
+ */
+entity Event {
+    name String required maxlength(32),
+    detales String required maxlength(1024),
+    jitsi String required maxlength(128)
+}
+
+/**
+ * The MLog entity.
+ */
+entity MLog {
+    rating Integer required
+}
+
+/**
+ * The Attachment entity.
+ */
+entity Attachment {
+    title String required maxlength(32),
+    link String required maxlength(128)
+}
+
+/**
+ * The Schedule entity.
+ */
+entity Schedule {
+    dateFrom ZonedDateTime required,
+    dateTo ZonedDateTime required
+}
+
+/**
+ * The Feedback entity.
+ */
+entity Feedback {
+    rating Integer required,
+    text String required maxlength(1024)
+}
+
+relationship ManyToOne {
+	MLog{event required} to Event
+	MLog{member required} to Member
+	Event{organizer required} to Member
+	Event{language required} to Language
+	Event{subject required} to Subject
+	Event{type required} to Type
+}
+
+relationship OneToMany {
+	Event{schedules required} to Schedule
+    Event{feedbacks required} to Feedback
+	Event{attachments required} to Attachment
+}
+
+paginate all with pagination except MLog
+
+dto all with mapstruct except MLog
+
+service all with serviceImpl except MLog
