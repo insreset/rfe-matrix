@@ -1,0 +1,26 @@
+{
+  "rfEduApp": {
+    "schedule": {
+      "home": {
+        "title": "Schedules",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Schedule",
+        "createOrEditLabel": "创建或编辑 Schedule",
+        "notFound": "No Schedules found"
+      },
+      "created": "Schedule {{ param }} 创建成功",
+      "updated": "Schedule {{ param }} 更新成功",
+      "deleted": "Schedule {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Schedule {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Schedule"
+      },
+      "id": "ID",
+      "dateFrom": "Date From",
+      "dateTo": "Date To",
+      "event": "Event"
+    }
+  }
+}

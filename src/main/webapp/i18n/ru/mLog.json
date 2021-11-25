@@ -1,0 +1,26 @@
+{
+  "rfEduApp": {
+    "mLog": {
+      "home": {
+        "title": "M Logs",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый M Log",
+        "createOrEditLabel": "Создать или отредактировать M Log",
+        "notFound": "M Logs не найдено"
+      },
+      "created": "Новый M Log создан с идентификатором {{ param }}",
+      "updated": "M Log обновлен с идентификатором {{ param }}",
+      "deleted": "M Log удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить M Log {{ id }}?"
+      },
+      "detail": {
+        "title": "M Log"
+      },
+      "id": "ID",
+      "rating": "Rating",
+      "event": "Event",
+      "member": "Member"
+    }
+  }
+}

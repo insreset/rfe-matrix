@@ -1,0 +1,25 @@
+{
+  "rfEduApp": {
+    "language": {
+      "home": {
+        "title": "Languages",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Language",
+        "createOrEditLabel": "Criar ou editar Language",
+        "notFound": "Nenhum Language encontrado"
+      },
+      "created": "Um novo Language foi criado com o identificador {{ param }}",
+      "updated": "Um Language foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Language foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Language {{ id }}?"
+      },
+      "detail": {
+        "title": "Language"
+      },
+      "id": "ID",
+      "name": "Name",
+      "picture": "Picture"
+    }
+  }
+}

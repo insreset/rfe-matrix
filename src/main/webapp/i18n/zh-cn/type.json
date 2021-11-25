@@ -1,0 +1,25 @@
+{
+  "rfEduApp": {
+    "type": {
+      "home": {
+        "title": "Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Type",
+        "createOrEditLabel": "创建或编辑 Type",
+        "notFound": "No Types found"
+      },
+      "created": "Type {{ param }} 创建成功",
+      "updated": "Type {{ param }} 更新成功",
+      "deleted": "Type {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Type {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "picture": "Picture"
+    }
+  }
+}

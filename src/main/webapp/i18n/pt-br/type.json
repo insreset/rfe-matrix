@@ -1,0 +1,25 @@
+{
+  "rfEduApp": {
+    "type": {
+      "home": {
+        "title": "Types",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Type",
+        "createOrEditLabel": "Criar ou editar Type",
+        "notFound": "Nenhum Type encontrado"
+      },
+      "created": "Um novo Type foi criado com o identificador {{ param }}",
+      "updated": "Um Type foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Type foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "picture": "Picture"
+    }
+  }
+}

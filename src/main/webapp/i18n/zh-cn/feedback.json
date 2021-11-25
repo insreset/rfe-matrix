@@ -1,0 +1,26 @@
+{
+  "rfEduApp": {
+    "feedback": {
+      "home": {
+        "title": "Feedbacks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Feedback",
+        "createOrEditLabel": "创建或编辑 Feedback",
+        "notFound": "No Feedbacks found"
+      },
+      "created": "Feedback {{ param }} 创建成功",
+      "updated": "Feedback {{ param }} 更新成功",
+      "deleted": "Feedback {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Feedback {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Feedback"
+      },
+      "id": "ID",
+      "rating": "Rating",
+      "text": "Text",
+      "event": "Event"
+    }
+  }
+}

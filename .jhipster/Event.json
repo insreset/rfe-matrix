@@ -1,0 +1,85 @@
+{
+  "name": "Event",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "32"
+    },
+    {
+      "fieldName": "detales",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "1024"
+    },
+    {
+      "fieldName": "jitsi",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "128"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "schedule",
+      "otherEntityRelationshipName": "event",
+      "relationshipValidateRules": "required",
+      "relationshipName": "schedules"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "feedback",
+      "otherEntityRelationshipName": "event",
+      "relationshipValidateRules": "required",
+      "relationshipName": "feedbacks"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "attachment",
+      "otherEntityRelationshipName": "event",
+      "relationshipValidateRules": "required",
+      "relationshipName": "attachments"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "member",
+      "otherEntityRelationshipName": "event",
+      "relationshipValidateRules": "required",
+      "relationshipName": "organizer"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "language",
+      "otherEntityRelationshipName": "event",
+      "relationshipValidateRules": "required",
+      "relationshipName": "language"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "subject",
+      "otherEntityRelationshipName": "event",
+      "relationshipValidateRules": "required",
+      "relationshipName": "subject"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "type",
+      "otherEntityRelationshipName": "event",
+      "relationshipValidateRules": "required",
+      "relationshipName": "type"
+    }
+  ],
+  "javadoc": "The Event entity.",
+  "entityTableName": "event",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211125124038"
+}

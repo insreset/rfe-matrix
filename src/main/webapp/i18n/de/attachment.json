@@ -1,0 +1,26 @@
+{
+  "rfEduApp": {
+    "attachment": {
+      "home": {
+        "title": "Attachments",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Attachment erstellen",
+        "createOrEditLabel": "Attachment erstellen oder bearbeiten",
+        "notFound": "Keine Attachments gefunden"
+      },
+      "created": "Attachment erstellt mit ID {{ param }}",
+      "updated": "Attachment aktualisiert mit ID {{ param }}",
+      "deleted": "Attachment gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Attachment {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Attachment"
+      },
+      "id": "ID",
+      "title": "Title",
+      "link": "Link",
+      "event": "Event"
+    }
+  }
+}
