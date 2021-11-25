@@ -7,6 +7,15 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Сущности",
+        "member": "Member",
+        "language": "Language",
+        "subject": "Subject",
+        "type": "Type",
+        "event": "Event",
+        "mLog": "M Log",
+        "attachment": "Attachment",
+        "schedule": "Schedule",
+        "feedback": "Feedback",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

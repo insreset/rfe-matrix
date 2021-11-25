@@ -42,7 +42,9 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "reactive": false,
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": ["Member", "Language", "Subject", "Type", "Event", "MLog", "Attachment", "Schedule", "Feedback"],
+    "lastLiquibaseTimestamp": 1637844042000
   },
   "git-provider": "GitHub",
   "git-company": "insreset",

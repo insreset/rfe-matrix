@@ -1,0 +1,33 @@
+{
+  "rfEduApp": {
+    "event": {
+      "home": {
+        "title": "Events",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Event",
+        "createOrEditLabel": "创建或编辑 Event",
+        "notFound": "No Events found"
+      },
+      "created": "Event {{ param }} 创建成功",
+      "updated": "Event {{ param }} 更新成功",
+      "deleted": "Event {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Event {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Event"
+      },
+      "id": "ID",
+      "name": "Name",
+      "detales": "Detales",
+      "jitsi": "Jitsi",
+      "schedules": "Schedules",
+      "feedbacks": "Feedbacks",
+      "attachments": "Attachments",
+      "organizer": "Organizer",
+      "language": "Language",
+      "subject": "Subject",
+      "type": "Type"
+    }
+  }
+}

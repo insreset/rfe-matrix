@@ -1,0 +1,33 @@
+{
+  "rfEduApp": {
+    "event": {
+      "home": {
+        "title": "Events",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Event erstellen",
+        "createOrEditLabel": "Event erstellen oder bearbeiten",
+        "notFound": "Keine Events gefunden"
+      },
+      "created": "Event erstellt mit ID {{ param }}",
+      "updated": "Event aktualisiert mit ID {{ param }}",
+      "deleted": "Event gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Event {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Event"
+      },
+      "id": "ID",
+      "name": "Name",
+      "detales": "Detales",
+      "jitsi": "Jitsi",
+      "schedules": "Schedules",
+      "feedbacks": "Feedbacks",
+      "attachments": "Attachments",
+      "organizer": "Organizer",
+      "language": "Language",
+      "subject": "Subject",
+      "type": "Type"
+    }
+  }
+}

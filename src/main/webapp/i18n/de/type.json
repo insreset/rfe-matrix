@@ -1,0 +1,25 @@
+{
+  "rfEduApp": {
+    "type": {
+      "home": {
+        "title": "Types",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Type erstellen",
+        "createOrEditLabel": "Type erstellen oder bearbeiten",
+        "notFound": "Keine Types gefunden"
+      },
+      "created": "Type erstellt mit ID {{ param }}",
+      "updated": "Type aktualisiert mit ID {{ param }}",
+      "deleted": "Type gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Type {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "picture": "Picture"
+    }
+  }
+}

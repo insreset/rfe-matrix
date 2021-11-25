@@ -1,0 +1,26 @@
+{
+  "rfEduApp": {
+    "attachment": {
+      "home": {
+        "title": "Attachments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Attachment",
+        "createOrEditLabel": "创建或编辑 Attachment",
+        "notFound": "No Attachments found"
+      },
+      "created": "Attachment {{ param }} 创建成功",
+      "updated": "Attachment {{ param }} 更新成功",
+      "deleted": "Attachment {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Attachment {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Attachment"
+      },
+      "id": "ID",
+      "title": "Title",
+      "link": "Link",
+      "event": "Event"
+    }
+  }
+}

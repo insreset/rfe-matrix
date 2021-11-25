@@ -1,0 +1,26 @@
+{
+  "rfEduApp": {
+    "mLog": {
+      "home": {
+        "title": "M Logs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 M Log",
+        "createOrEditLabel": "创建或编辑 M Log",
+        "notFound": "No M Logs found"
+      },
+      "created": "M Log {{ param }} 创建成功",
+      "updated": "M Log {{ param }} 更新成功",
+      "deleted": "M Log {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 M Log {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "M Log"
+      },
+      "id": "ID",
+      "rating": "Rating",
+      "event": "Event",
+      "member": "Member"
+    }
+  }
+}

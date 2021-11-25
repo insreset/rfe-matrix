@@ -1,0 +1,33 @@
+{
+  "rfEduApp": {
+    "event": {
+      "home": {
+        "title": "Events",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Event",
+        "createOrEditLabel": "Создать или отредактировать Event",
+        "notFound": "Events не найдено"
+      },
+      "created": "Новый Event создан с идентификатором {{ param }}",
+      "updated": "Event обновлен с идентификатором {{ param }}",
+      "deleted": "Event удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Event {{ id }}?"
+      },
+      "detail": {
+        "title": "Event"
+      },
+      "id": "ID",
+      "name": "Name",
+      "detales": "Detales",
+      "jitsi": "Jitsi",
+      "schedules": "Schedules",
+      "feedbacks": "Feedbacks",
+      "attachments": "Attachments",
+      "organizer": "Organizer",
+      "language": "Language",
+      "subject": "Subject",
+      "type": "Type"
+    }
+  }
+}
